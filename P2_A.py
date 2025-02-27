@@ -2,7 +2,7 @@ import console_gfx
 
 def menu():
       print("\nRLE Menu\n"
-            "________\n"
+            "--------\n"
             "0. Exit\n"
             "1. Load File\n"
             "2. Load Test Image\n"
@@ -17,6 +17,7 @@ def menu():
 
 def main():
       print("Welcome to the RLE image encoder!\n")
+      print("Displaying Spectrum Image:\n")
       console_gfx.display_image(console_gfx.test_rainbow)
       while True:
             menu()
